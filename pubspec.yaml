@@ -1,0 +1,109 @@
+name: notebook
+
+description: A Riverpod template project for Flutter applications, featuring custom drawer navigation, state management, and geospatial capabilities.
+# Prevent this package from being accidentally published to pub.dev since it is proprietary.
+publish_to: 'none'
+
+# Application versioning:
+# Format: <version>+<build number>
+# - version: semantic version (major.minor.patch)
+# - build number: increments with each build
+version: 1.0.0+1
+
+environment:
+  # Specify compatible Dart SDK versions.
+  # "^3.7.2" means any version >=3.7.2 <4.0.0.
+  sdk: ^3.7.2
+
+dependencies:
+  # Flutter framework dependency.
+  flutter:
+    sdk: flutter
+
+  # Cupertino Icons for iOS-style icons.
+  cupertino_icons: ^1.0.8
+
+  # State management with Riverpod.
+  flutter_riverpod: ^2.6.1
+
+  # Launcher icons configuration support.
+  flutter_launcher_icons: ^0.14.4
+
+
+  # To launch URLs in external browsers or apps.
+  url_launcher: ^6.3.2
+  hive_flutter: ^1.1.0
+
+dev_dependencies:
+  # Flutter testing framework.
+  flutter_test:
+    sdk: flutter
+
+  # Recommended Flutter lint rules for clean code.
+  flutter_lints: ^5.0.0
+
+  # Additional custom linting tools.
+  custom_lint: ^0.8.0
+
+flutter:
+  # Enable Material Design icons.
+  uses-material-design: true
+
+  # Declare the assets to include in your app bundle.
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+
+  # Declare custom fonts used in the app.
+  fonts:
+    - family: FiraCode
+      fonts:
+        - asset: assets/fonts/FiraCode-Bold.ttf
+        - asset: assets/fonts/FiraCode-Light.ttf
+        - asset: assets/fonts/FiraCode-Medium.ttf
+        - asset: assets/fonts/FiraCode-Regular.ttf
+        - asset: assets/fonts/FiraCode-Retina.ttf
+          style: italic
+          weight: 700
+    - family: Technology
+      fonts:
+        - asset: assets/fonts/Technology-Bold.ttf
+        - asset: assets/fonts/Technology-Italic.ttf
+        - asset: assets/fonts/Technology-BoldItalic.ttf
+          style: italic
+          weight: 700
+    - family: GreatVibes
+      fonts:
+        - asset: assets/fonts/GreatVibes-Regular.ttf
+          style: italic
+          weight: 700
+    - family: Piazzolla
+      fonts:
+        - asset: assets/fonts/Piazzolla-Bold.ttf
+          style: italic
+          weight: 700
+
+# Configuration for flutter_launcher_icons package.
+flutter_launcher_icons:
+  # Targets iOS and Android icon generation.
+  ios: true
+  
+  # Android icon name (use default 'launcher_icon' name).
+  android: 'launcher_icon'
+
+  # Path to the main icon image.
+  image_path: "assets/icons/logo.png"
+
+  # Background color for adaptive Android icon.
+  adaptive_icon_background: "#000099"
+
+  # Remove alpha channel from iOS icon image for compatibility.
+  remove_alpha_ios: true
+
+  # Foreground icon for Android adaptive icons.
+  adaptive_icon_foreground: "assets/icons/logo.png"
+
+  # Minimum Android SDK version to support.
+  # Default is 21, minimum supported by Flutter.
+  min_sdk_android: 21
